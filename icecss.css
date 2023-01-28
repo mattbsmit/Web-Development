@@ -1,0 +1,18 @@
+* {
+    margin: 75px 0px 75px 0px;
+    background-color: pink;
+    text-align: center;
+    color: white;
+    }
+
+a.hover{
+    color: black;
+}
+
+li {
+    color: black;
+    }
+
+footer p{
+    color: black;
+}
