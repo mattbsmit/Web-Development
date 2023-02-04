@@ -1,18 +1,15 @@
-* {
-    margin: 75px 0px 75px 0px;
-    background-color: pink;
-    text-align: center;
-    color: white;
-    }
-
-a.hover{
-    color: black;
+body {
+    margin: 0px;
+    background-color: darkgrey;
 }
 
-li {
-    color: black;
-    }
+main img {
+    margin: 7%;
+    width: 15%;
+    border-radius: 50%;
+    border: 10px solid grey;
+}
 
-footer p{
-    color: black;
+main {
+    padding: 25px 125px;
 }

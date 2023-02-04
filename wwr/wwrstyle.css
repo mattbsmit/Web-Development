@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Raleway:wght@300&display=swap" rel="stylesheet');
+
+
+
+
 nav a {
     text-align: center;
     text-decoration: none;
-    color: #fee8dc
+    color: #fee8dc;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -9,20 +15,37 @@ nav a:hover {
     color: white
 }
 
-home-title {
-    color: #ee4612
+#logo_link {
+    padding-top: 5px;
+}
+
+.home-title {
+    font-family: 'Fira Sans', Raleway, sans-serif;
+    font-size: 2em;
+    color: #ee4612;
+    margin-top: 10px;
+
 }
 
 body {
     background-color: #fee8dc;
+    color: #FA8E53;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #FA8E53;
 }
 
+h2 {
+    margin: 0;
+}
+
 h4 {
-    color: #ee4612
+    color: #ee4612;
 }
 
 div {
@@ -31,6 +54,7 @@ div {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #content {
@@ -42,26 +66,42 @@ div {
 }
 
 .msg {
-    background-color: #FA8E53
+    background-color: #FA8E53;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
-    color: #FA8E53
+    color: #FA8E53;
 }
 
 .msg p {
-    color: #FA8E53
+    font-size: .8em;
+    color: #FA8E53;
+    padding-bottom: 15px;
 }
 
 .book, .join {
     text-decoration: none;
+    font-size: 18px;
     background-color: #FA8E53;
-    color: #ee4612
+    color: #ee4612;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
     background-color: #af633a;
-    color: #FA8E53
+    color: #FA8E53;
+}
+
+.card-img {
+    border: 10px solid #F16B41;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 .button-box {
@@ -72,6 +112,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #F16B41;
@@ -79,7 +123,9 @@ main section {
 
 footer {
     background-color: #FA8E53;
-    color: white
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -88,10 +134,14 @@ footer p {
 
 footer a {
     text-decoration: none;
-    color: #fee8dc
+    color: #fee8dc;
 }
 
 footer a:hover {
     text-decoration: underline;
-    color: white
+    color: white;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
